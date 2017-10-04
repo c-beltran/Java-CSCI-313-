@@ -1,12 +1,12 @@
 
-public class X23080966 extends Polynomial {
+public class Projet_X extends Polynomial {
    public static void main(String args[]) throws Exception {
-      Polynomial p = new X23080966("- X"), 
-            q = new X23080966("X^2 - 2X + 1");
+      Polynomial p = new Projet_X("- X"), 
+            q = new Projet_X("X^2 - 2X + 1");
       Utility.run(p, q);
    }
    
-   public X23080966(String s) throws Exception {
+   public Projet_X(String s) throws Exception {
       // complete this code
 	   super();
 	   String num = s.replace("-", "+-");//putting + in front of -
@@ -78,12 +78,12 @@ public class X23080966 extends Polynomial {
 
    }
 
-   public X23080966() {
+   public Projet_X() {
       super();
    }
 
    public Polynomial add(Polynomial p) {
-      Polynomial ans = new X23080966();
+      Polynomial ans = new Projet_X();
 //    
 //      Term t; 
 //      DList<Term> listA = this.data;
@@ -143,7 +143,7 @@ public class X23080966 extends Polynomial {
    }
 
    public Polynomial subtract(Polynomial p) {
-      Polynomial ans = new X23080966();
+      Polynomial ans = new Projet_X();
       // complete this code
 //      
 //      Term t; 
@@ -204,19 +204,19 @@ public class X23080966 extends Polynomial {
    }
 
    public Polynomial multiply(Polynomial p) {
-      Polynomial ans = new X23080966();
+      Polynomial ans = new Projet_X();
       // complete this code
       return ans;
    }
 
    public Polynomial divide(Polynomial p) throws Exception {
-      Polynomial ans = new X23080966();
+      Polynomial ans = new Projet_X();
       // complete this code
       return ans;
    }
 
    public Polynomial remainder(Polynomial p) throws Exception {
-      Polynomial ans = new X23080966();
+      Polynomial ans = new Projet_X();
       // complete this code
       return ans;
    }
