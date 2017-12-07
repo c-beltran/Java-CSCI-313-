@@ -1,9 +1,9 @@
-public class Y23080966 extends ExpressionTree {
+public class ProjectY extends ExpressionTree {
 
    public static void main(String args[]) {
-      Y23080966 y = new Y23080966("5 + 6 * 7");
+      ProjectY y = new ProjectY("5 + 6 * 7");
       Utility.print(y);
-      y = new Y23080966(Utility.getInput());
+      y = new ProjectY(Utility.getInput());
       Utility.print(y);
    }
    
@@ -60,7 +60,7 @@ public class Y23080966 extends ExpressionTree {
 	   }
 
 
-   public Y23080966(String s) {
+   public ProjectY(String s) {
       super();
       // add implementation here
       Stack<BNode<String>> treeStack = new Stack<BNode<String>>();

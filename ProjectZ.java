@@ -9,10 +9,10 @@ import java.util.TreeSet;
 //utility method and i was able to print the count. I wasn't sure if i should add to the return in the get method
 //but i added anyways.
 
-public class Z23080966<X extends Comparable<X>, Y> implements Counter<X, Y> {
+public class ProjectZ<X extends Comparable<X>, Y> implements Counter<X, Y> {
 
       public static void main(String args[]) throws FileNotFoundException {
-         Counter<String, String> x = new Z23080966<String, String>();
+         Counter<String, String> x = new ProjectZ<String, String>();
          Utility.run(x);
       }
 	  
